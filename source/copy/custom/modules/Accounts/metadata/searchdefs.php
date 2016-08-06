@@ -41,6 +41,11 @@ array (
         'width' => '10%',
       ),
       'website' => 
+      array (
+        'name' => 'website',
+        'default' => true,
+        'width' => '10%',
+      ),
       'phone' => 
       array (
         'name' => 'phone',
