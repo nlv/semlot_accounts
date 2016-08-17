@@ -6,9 +6,9 @@ $manifest = array(
     'author' => 'Leon.V.Nikitin@pravmail.ru',
     'description' => 'Доработка модуля контрагентов (semlot)',
     'is_uninstallable' => true,
-    'published_date' => '2016-08-08',
+    'published_date' => '2016-08-18',
     'type' => 'module',
-    'version' => '1.1.0',
+    'version' => '1.2.0',
 );
 $installdefs = array(
     'id' => 'semlot_accounts',
@@ -19,11 +19,6 @@ $installdefs = array(
         ),
     ),
 	'language' => array (
-      array (
-        'from' => '<basepath>/source/modules/application/language/ru_ru.lang.php',
-        'to_module' => 'application',
-        'language' => 'ru_ru',
-      ),
       array (
         'from' => '<basepath>/source/modules/Accounts/language/ru_ru.lang.php',
         'to_module' => 'Accounts',
