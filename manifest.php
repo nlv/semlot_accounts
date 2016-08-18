@@ -8,16 +8,10 @@ $manifest = array(
     'is_uninstallable' => true,
     'published_date' => '2016-08-18',
     'type' => 'module',
-    'version' => '1.2.0',
+    'version' => '1.3.0',
 );
 $installdefs = array(
     'id' => 'semlot_accounts',
-    'copy' => array(
-        array(
-            'from' => '<basepath>/source/copy',
-            'to' => '.'
-        ),
-    ),
 	'language' => array (
       array (
         'from' => '<basepath>/source/modules/Accounts/language/ru_ru.lang.php',
